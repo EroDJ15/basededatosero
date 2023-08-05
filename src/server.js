@@ -11,6 +11,6 @@ db.sync()
   .then(() => console.log("Database sincronizada..."))
   .catch((error) => console.log(error));
 
-app.listen(3000, "0.0.0.0", () => {
+app.listen(3000, () => {
   console.log("El servidor está escuchando en el puerto 3000");
 });
